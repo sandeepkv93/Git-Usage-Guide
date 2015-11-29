@@ -1,0 +1,2 @@
+To Commit Directly from Working Copy to the Repository:
+	git commit -am "Information about the Commit"
