@@ -1,0 +1,12 @@
+To add user:
+	git config --glabal user.name "Your Name"
+
+To add email:
+	git config --glabal user.email "Your email_id"
+
+
+To check whether they are added successfully,
+	git config --list
+
+You can check only specific info
+	git config user.email
