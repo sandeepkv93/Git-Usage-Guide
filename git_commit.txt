@@ -1,0 +1,2 @@
+To Add Files from Staging Area to Repository,
+	git commit -m "Information about the commit"
