@@ -1,0 +1,2 @@
+To revert something from Working Copy,
+	git checkout -- <Filename>
