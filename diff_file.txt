@@ -1,0 +1,2 @@
+To Generate Diff File of the Changes:
+	git show --full-index [commit_id] > [Path]/diff_filename.diff
