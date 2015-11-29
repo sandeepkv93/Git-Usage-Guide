@@ -1,0 +1,10 @@
+Installing Git:
+
+Installing on Windows:
+	Open http://git-scm.com/download/win & Download.
+
+Installing on Ubuntu or Any Debian-based Linux Distribution:
+	sudo apt-get install git-all
+
+Installing on Mac:
+	Open http://git-scm.com/download/mac & Download
