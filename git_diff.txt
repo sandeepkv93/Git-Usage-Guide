@@ -1,0 +1,5 @@
+git diff
+	Compares working copy with the Repository
+
+git diff --staged
+	Compares Staging Area with the Repository
