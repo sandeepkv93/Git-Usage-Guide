@@ -1,0 +1,17 @@
+git log
+	Display the entire commit history using the default formatting. If the output takes up more than one screen, you can use Space to scroll and q to exit.
+
+git log -n <limit>
+	Limit the number of commits by <limit>. For example, git log -n 3 will display only 3 commits.
+
+git log --oneline
+	Condense each commit to a single line. This is useful for getting a high-level overview of the project history.
+
+git log --stat
+	Along with the ordinary git log information, include which files were altered and the relative number of lines that were added or deleted from each of them.
+
+git log -p
+	Display the patch representing each commit. This shows the full diff of each commit, which is the most detailed view you can have of your project history.
+
+git log --author="<pattern>"
+	Search for commits by a particular author. The <pattern> argument can be a plain string or a regular expression.
