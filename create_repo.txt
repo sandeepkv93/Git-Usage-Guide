@@ -1,0 +1,4 @@
+To create a repository,
+
+In Git Shell goto the directory where you want to create the repo.
+	git init
