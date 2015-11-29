@@ -1,0 +1,14 @@
+If it is just the previous commit,
+	git commit --amend --author="Author Name <email@address.com>"
+
+If it is intermediate commit,
+	git rebase -i <earliercommit>
+	Change lines from 'pick' to 'edit' for that commit
+	git commit --amend --author="Author Name <email@address.com>"
+	git rebase --continue
+
+If it is the First Commit,
+	git rebase -i --root
+	Change lines from 'pick' to 'edit' for that commit
+	git commit --amend --author="Author Name <email@address.com>"
+	git rebase --continue
