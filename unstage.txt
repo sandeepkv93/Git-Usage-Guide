@@ -1,0 +1,2 @@
+To Unstage file from Staging Area to Working Copy,
+	git reset HEAD <filename>
