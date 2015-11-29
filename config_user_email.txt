@@ -1,8 +1,8 @@
 To add user:
-	git config --glabal user.name "Your Name"
+	git config --global user.name "Your Name"
 
 To add email:
-	git config --glabal user.email "Your email_id"
+	git config --global user.email "Your email_id"
 
 
 To check whether they are added successfully,
