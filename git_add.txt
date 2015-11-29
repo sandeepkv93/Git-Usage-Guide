@@ -1,0 +1,5 @@
+To add a new file from local to staging area,
+	git add <filename>
+	
+To add all untracked files from local to staging area,
+	git add .
