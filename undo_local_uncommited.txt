@@ -1,0 +1,16 @@
+git reset
+	This will unstage all files you might have staged with git add:
+
+git checkout
+	This will revert all local uncommitted changes (should be executed in repo root):
+
+git checkout [some_dir|file.txt]
+	You can also revert uncommitted changes only to particular file or directory:
+
+git reset --hard HEAD
+	Yet another way to revert all uncommitted changes (longer to type, but works from any subdirectory): 
+
+git clean -fdx
+	This will remove all local untracked files, so only git tracked files remain:
+
+WARNING: -x will also remove all ignored files!
