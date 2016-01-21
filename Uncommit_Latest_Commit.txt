@@ -1,0 +1,2 @@
+git reset --soft HEAD~1
+    This Moves the Latest Commit from the local repository to the Staging Area.
